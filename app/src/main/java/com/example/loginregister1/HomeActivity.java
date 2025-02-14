@@ -23,7 +23,7 @@ public class HomeActivity extends AppCompatActivity {
         taskList.add(new Task("Help with event", "Assist in organizing a community event"));
         taskList.add(new Task("Clean park", "Join the clean-up event at the local park"));
 
-        // Create the adapter and set it to the RecyclerView
+
         TasksAdapter tasksAdapter = new TasksAdapter(taskList);
         tasksRecyclerView.setAdapter(tasksAdapter);
     }
